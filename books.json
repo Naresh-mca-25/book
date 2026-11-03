@@ -1,0 +1,28 @@
+{
+  "works": [
+    {
+      "title": "The Hobbit",
+      "authors": [
+        { "name": "J. R. R. Tolkien" }
+      ]
+    },
+    {
+      "title": "A Wizard of Earthsea",
+      "authors": [
+        { "name": "Ursula K. Le Guin" }
+      ]
+    },
+    {
+      "title": "The Fellowship of the Ring",
+      "authors": [
+        { "name": "J. R. R. Tolkien" }
+      ]
+    },
+    {
+      "title": "The Last Unicorn",
+      "authors": [
+        { "name": "Peter S. Beagle" }
+      ]
+    }
+  ]
+}

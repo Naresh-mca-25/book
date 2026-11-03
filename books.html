@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Book Library</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Online Book Library</h1>
+
+        <a href="index.html">Home</a>
+
+    </header>
+
+
+    <!-- Main Content -->
+
+    <div class="books-container">
+
+        <div class="books-box">
+
+            <h2>Book Collection</h2>
+
+            <p>
+                Click the button to load books
+                from the API.
+            </p>
+
+            <button id="loadBooks" class="btn">
+                Load Books
+            </button>
+
+            <div id="loading"></div>
+
+            <div id="booksList" class="books-list">
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
